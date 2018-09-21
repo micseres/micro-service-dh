@@ -1,0 +1,40 @@
+{
+    "name": "micseres/micro-service-dh",
+    "description": "Micro Service Diffie Hellman",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "zogxray",
+            "email": "zogxray@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "ext-sockets": "*",
+        "ext-mcrypt": "*",
+        "ext-openssl": "*",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Micseres\\MicroServiceDH\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Micseres\\MicroServiceDH\\Tests\\": "Tests"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
